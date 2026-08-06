@@ -4,9 +4,15 @@ let currentAnimal = animalsInfo;
 const nav = document.querySelector('.js-nav');
 const main = document.querySelector('.js-main');
 const all = document.querySelector('.js-all');
+let input = document.querySelector('.js-input');
 all.classList.add('active');
 
 let index = 0;
+
+animalsInfo.forEach((animal) => {
+  const image = new Image();
+  image.src = animal.img;
+});
 
 document.querySelector('.js-dark').addEventListener('click', () => {
   console.log('click')
@@ -123,9 +129,7 @@ main.addEventListener('click', (e) => {
 });
 
 function searchAnimal() {
-  let input = document.querySelector('.js-input');
   let inputValue = input.value.trim().toLowerCase();
-  
   const matchingAnimal = currentAnimal.filter(animal => {
     return animal.name.toLowerCase().includes(inputValue);
   });

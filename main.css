@@ -3,7 +3,7 @@ main{
 }
 
 .main-img {
-  height: 480px;
+  height: 500px;
   width: 100vw;
 
   margin-top: 60px;
@@ -49,10 +49,12 @@ main{
   left: 48px;
 
   width: 210px;
+  font-size: 16px;
+  
 }
 
 .size-6 {
-  width: 40px;
+  width: 50px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -81,7 +83,7 @@ main{
 
 
   bottom: 80px;
-  left: 140px;
+  left: 160px;
 
   border: none;
   border-radius: 8px;
@@ -90,12 +92,12 @@ main{
 
 .random-btn {
   position: absolute;
-  padding: 12px;
+  padding: 20px;
   border-radius: 8px;
   border: none;
 
-  bottom: 25px;
-  left: 70px;
+  bottom: 15px;
+  left: 75px;
   background-color: var(--bg);
   color: var(--text);
   cursor: pointer;
