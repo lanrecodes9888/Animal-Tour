@@ -28,7 +28,7 @@ document.querySelector('.js-input').addEventListener('keydown', (e) => {
     searchAnimal()
   }
 });
-
+ 
 
 
 nav.addEventListener('click', (e) => {
