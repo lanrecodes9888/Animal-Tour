@@ -15,7 +15,6 @@ animalsInfo.forEach((animal) => {
 });
 
 document.querySelector('.js-dark').addEventListener('click', () => {
-  console.log('click')
   document.body.classList.toggle('dark');
 });
 
