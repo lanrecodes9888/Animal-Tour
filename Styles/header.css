@@ -22,21 +22,18 @@ body {
   color: var(--text);
 }
 
-.dark-btn {
-  position: fixed;
-  padding: 2px;
+.theme {
+  padding: 12px;
   margin-bottom: 2px;
   border-radius: 50%;
   border: none;
   background-color: rgb(142, 142, 142);
 
-  left: 2px;
-  top: 2px;
-
   cursor: pointer;
+  outline: none;
 }
 
-.dark-btn svg {
+.theme svg {
   width: 15px;
 }
 
